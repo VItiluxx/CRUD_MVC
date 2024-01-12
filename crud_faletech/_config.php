@@ -6,8 +6,8 @@
     $host = $_SERVER['HTTP_HOST'];
     $root = $_SERVER['DOCUMENT_ROOT'];
 
-    define ('HOST', 'http://'.$host.'/faletech/');
-    define ('ROOT', $root.'/faletech/');
+    define ('HOST', 'http://'.$host.'/CRUD_MVC/crud_faletech/');
+    define ('ROOT', $root.'/CRUD_MVC/crud_faletech/');
 
     define('MODEL_HOST', HOST.'model/');
     define('MODEL_ROOT', ROOT.'model/');
